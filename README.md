@@ -8,5 +8,5 @@ Installation
 
 Copy PushPitch2Mod.amxd to your user library.
 
-Mac: ~/Music/Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect/
+Mac: ~/Music/Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect/ <br />
 Windows: \Documents\Ableton\User Library\Presets\MIDI Effects\Max MIDI Effect\
