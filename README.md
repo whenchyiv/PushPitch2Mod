@@ -6,7 +6,7 @@ PushPitch2Mod is a Max for Live device that permits you to use Ableton Push's pi
 Installation
 -------
 
-Copy PushPitch2Mod.amxd to your user library.
+Copy PushPitch2Mod.amxd to your Ableton Live user library.
 
 Mac: ~/Music/Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect/ <br />
 Windows: \Documents\Ableton\User Library\Presets\MIDI Effects\Max MIDI Effect\
