@@ -28,3 +28,5 @@ Known Issues
 - Push must be connected before loading the patch or PushPitch2Mod won't see the Push.<br />
 - Deleting multiple instances can sometimes lead to crazy LED behavior (try the reset touch strip button and then toggle the mode to remedy this).<br />
 - Editing the patch and saving it requires either clicking the bang message in the patcher to restart the selected track detection timer, or deleting and reloading the patch. This seems to be a Max For Live issue, though my remedial Max/MSP patching abilities could just as easily be to blame.<br />
+
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/pushpitch2mod/Modwheel.png" />
