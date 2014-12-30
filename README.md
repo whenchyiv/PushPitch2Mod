@@ -20,7 +20,7 @@ By default your Push's touch strip will be left in Pitchbend Mode. Enabling the 
 
 ![Pitchbend mode](https://s3-us-west-2.amazonaws.com/pushpitch2mod/Pitchbend.png) ![Modwheel mode](https://s3-us-west-2.amazonaws.com/pushpitch2mod/Modwheel.png)
 
-Simple!
+Easy!
 
 Known Issues
 -------
