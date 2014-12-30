@@ -16,7 +16,7 @@ Usage
 
 Connect your Push to Ableton Live, and then drag the PushPitch2Mod device onto the MIDI track you want to use the Push touch strip as a modwheel on. Your Push must be connected first in order for PushPitch2Mod to discover it.
 
-By default your Push will continue to send pitchbend to the track. Enabling the Modwheel mode either via the toggle switch on PushPitch2Mod, or the encoder mapping on Push ("Ptch2Mod On/Off") with change the touchstrip LCD to a modwheel, and send MIDI CC #1 (modwheel) rather than pitchbend.
+By default your Push's touch strip will be left in pitchbend mode. Enabling the Modwheel mode either via the toggle switch on PushPitch2Mod, or the encoder mapping on Push ("Ptch2Mod On/Off") with change the touchstrip to modwheel mode. Its LED strip will change to reflect that it is now a modwheel send MIDI CC #1 (modwheel) rather than pitchbend.
 
 ![Pitchbend mode](https://s3-us-west-2.amazonaws.com/pushpitch2mod/Pitchbend.png) ![Modwheel mode](https://s3-us-west-2.amazonaws.com/pushpitch2mod/Modwheel.png)
 
