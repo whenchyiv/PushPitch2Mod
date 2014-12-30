@@ -1,7 +1,7 @@
 PushPitch2Mod - Modwheel for Ableton Push
 =============
 
-PushPitch2Mod is a Max for Live device that lets you use Ableton Push's pitchbend touch strip as a modwheel. The device works on a per-track basis, meaning that you can have the touch strip act as a modwheel on one track, while retaining Push's default pitch bend functionality on another. Touch strip and LED behavior are changed in Modwheel Mode to simulate a modwheel.
+PushPitch2Mod is a Max for Live device that lets you use Ableton Push's pitch bend touch strip as a modwheel. The device works on a per-track basis, meaning that you can have the touch strip act as a modwheel on one track, while retaining Push's default pitch bend functionality on another. Touch strip and LED behavior are changed in Modwheel Mode to simulate a modwheel.
 
 Installation
 -------
@@ -16,7 +16,7 @@ Usage
 
 Connect your Push to Ableton Live, and then drag the PushPitch2Mod device onto the MIDI track you want to use the Push touch strip as a modwheel on. Your Push must be connected first in order for PushPitch2Mod to discover it.
 
-By default your Push's touch strip will be left in Pitchbend Mode. Enabling the Modwheel Mode either via the toggle switch on PushPitch2Mod, or the encoder mapping on Push ("Ptch2Mod On/Off") with change the touchstrip to modwheel mode. In Modwheel Mode your Push's LED strip will act like a modwheel, and the touchstrip will send MIDI CC #1 (modwheel) rather than pitchbend.
+By default your Push's touch strip will be left in Pitchbend Mode. Enabling the Modwheel Mode either via the toggle switch on PushPitch2Mod, or the encoder mapping on Push ("Ptch2Mod On/Off") with change the touchstrip to modwheel mode. In Modwheel Mode your Push's LED strip will act like a modwheel, and the touchstrip will send MIDI CC #1 (modwheel) rather than pitch bend.
 
 ![Pitchbend mode](https://s3-us-west-2.amazonaws.com/pushpitch2mod/Pitchbend.png) ![Modwheel mode](https://s3-us-west-2.amazonaws.com/pushpitch2mod/Modwheel.png)
 
@@ -26,5 +26,5 @@ Known Issues
 -------
 - Touchstrip sometimes doesn't reset to correct LED mode when changing tracks (though correct CC is still sent).<br />
 - Push must be connected before loading the patch or PushPitch2Mod won't see the Push.<br />
-- Deleting multiple instances can sometimes lead to crazy LED behavior (try the reset touchstrip button and then toggle the mode to remedy this).<br />
+- Deleting multiple instances can sometimes lead to crazy LED behavior (try the reset touch strip button and then toggle the mode to remedy this).<br />
 - Editing the patch and saving it requires either clicking the bang message in the patcher to restart the selected track detection timer, or deleting and reloading the patch. This seems to be a Max For Live issue, but my remidial Max/MSP patching could just as easily be to blame.<br />
