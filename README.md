@@ -1,7 +1,7 @@
-PushPitch2Mod - Modwheel for Ableton Push
+PushPitch2Mod - Mod wheel for Ableton Push
 =============
 
-PushPitch2Mod is a Max for Live device that lets you use Ableton Push's pitch bend touch strip as a modwheel. The device works on a per-track basis, meaning that you can have the touch strip act as a modwheel on one track, while retaining Push's default pitch bend functionality on another. Touch strip and LED behavior are changed in Modwheel Mode to simulate a modwheel.
+PushPitch2Mod is a Max for Live device that lets you use Ableton Push's pitch bend touch strip as a mod wheel. The device works on a per-track basis, meaning that you can have the touch strip act as a mod wheel on one track, while retaining Push's default pitch bend functionality on another. Touch strip and LED behavior are changed in Modwheel Mode to simulate a mod wheel.
 
 Installation
 -------
@@ -14,9 +14,9 @@ Windows: \Documents\Ableton\User Library\Presets\MIDI Effects\Max MIDI Effect\
 Usage
 -------
 
-Connect your Push to Ableton Live, and then drag the PushPitch2Mod device onto the MIDI track you want to use the Push touch strip as a modwheel on. Your Push must be connected first in order for PushPitch2Mod to discover it.
+Connect your Push to Ableton Live, and then drag the PushPitch2Mod device onto the MIDI track you want to use the Push touch strip as a mod wheel on. Your Push must be connected first in order for PushPitch2Mod to discover it.
 
-By default your Push's touch strip will be left in Pitchbend Mode. Enabling the Modwheel Mode either via the toggle switch on PushPitch2Mod, or the encoder mapping on Push ("Ptch2Mod On/Off") with change the touchstrip to modwheel mode. In Modwheel Mode your Push's LED strip will act like a modwheel, and the touchstrip will send MIDI CC #1 (modwheel) rather than pitch bend.
+By default your Push's touch strip will be left in Pitchbend Mode. Enabling the Modwheel Mode either via the toggle switch on PushPitch2Mod, or the encoder mapping on Push ("Ptch2Mod On/Off") with change the touchstrip to Modwheel Mode. In Modwheel Mode your Push's LED strip will act like a mod wheel, and the touchstrip will send MIDI CC #1 (mod wheel) rather than pitch bend.
 
 ![Pitchbend mode](https://s3-us-west-2.amazonaws.com/pushpitch2mod/Pitchbend.png) ![Modwheel mode](https://s3-us-west-2.amazonaws.com/pushpitch2mod/Modwheel.png)
 
